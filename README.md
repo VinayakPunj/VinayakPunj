@@ -10,7 +10,7 @@ and business impact actually matter.
 Currently working as an Associate AI Consultant, translating complex financial and
 operational problems into scalable, cloud-deployed AI solutions.
 
-
+##
 ### 🔥 What Drives Me
 I’m driven by the challenge of turning complex, high stakes problems into reliable AI systems.
 

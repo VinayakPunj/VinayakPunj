@@ -20,7 +20,7 @@ actually rely on, is what keeps me excited about the work.
 
 I’m especially motivated by problems that sit at the intersection of
 technology, decision-making, and real business impact. 
-
+##
 ### 📫 Contact
 - 🔗 [LinkedIn](https://www.linkedin.com/in/vinayak-p-17839a1b6/)
 - 📫 vinayak.punj@gmail.com

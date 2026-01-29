@@ -22,7 +22,7 @@ I’m especially motivated by problems that sit at the intersection of
 technology, decision-making, and real business impact. 
 
 ### 📫 Contact
-- 🔗 [<LinkIn>](https://www.linkedin.com/in/vinayak-p-17839a1b6/)
+- 🔗 [LinkIn](https://www.linkedin.com/in/vinayak-p-17839a1b6/)
 - 📫 vinayak.punj@gmail.com
 <!--
 **VinayakPunj/VinayakPunj** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.

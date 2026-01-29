@@ -1,7 +1,7 @@
 ## Hi there 👋, I am Vinayak Punj
 AI Engineer | GenAI | Cloud ML | Finance
 
-I passionate about building production ready AI systems at the intersection of **technology and finance**.
+I am passionate about building production ready AI systems at the intersection of **technology and finance**.
 
 From LLM powered agents and Azure ML pipelines to intelligent automation for invoices,
 orders, and financial workflows, I focus on applying AI where accuracy, compliance,

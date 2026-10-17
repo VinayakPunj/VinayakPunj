@@ -1,109 +1,68 @@
-## Hi there 👋, I am Vinayak Punj
-AI Engineer | GenAI | Finance
+# Hi, I'm Vinayak Punj 👋
 
-I am passionate about building production ready AI systems at the intersection of **technology and finance**.
+**Associate AI Consultant** · LLM apps · RAG · AI automation · Finance
 
-From LLM powered agents and Azure ML pipelines to intelligent automation for invoices, orders, and financial workflows, I focus on applying AI where accuracy, compliance,
-and business impact actually matter.
+[![Website](https://img.shields.io/badge/Website-vinayakpunj.github.io-1F6FEB?logo=githubpages&logoColor=white)](https://vinayakpunj.github.io/VinayakPunj/)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-vinayak--p-0A66C2?logo=linkedin&logoColor=white)](https://www.linkedin.com/in/vinayak-p-17839a1b6/)
+[![Email](https://img.shields.io/badge/Email-vinayak.punj%40gmail.com-D14836?logo=gmail&logoColor=white)](mailto:vinayak.punj@gmail.com)
 
-Currently working as an Associate AI Consultant, translating complex financial and operational problems into scalable, cloud-deployed AI solutions.
+I'm an Associate AI Consultant with 1+ years of hands-on experience building LLM-powered applications, Retrieval-Augmented Generation (RAG) systems and AI-driven automation. I hold a dual degree in Computer Science and an MBA in Technology Management (Finance), so I combine technical skills with business and analytical thinking to deliver practical AI solutions.
 
-I make AI systems that connect to real business software, like ERPs and supply chains.
+## What I've built
 
-On the finance side, I have worked on credit risk, market risk and hedging. I have a B.Tech (Honors) in Computer Engineering and an MBA in Finance.
-
-## 🔭 What I have worked on
-
-- **Bulk Barcode tracking for medicines.** Reading GS1 barcodes and linking each item to its box and pallet.
-- **AI agents with a human check.** Agents that read messy messages and act only when they are sure.
-- **AI that sticks to the facts.** Search-based AI over long documents, with checks so it does not make things up.
-- **Risk models.** Predicting loan defaults, measuring market risk, and checking the credit health of small businesses.
-- **Reports and dashboards.** Clear dashboards and business requirement documents for leadership.
+| Impact | What |
+|---|---|
+| **400+ orders/day** | A LangGraph agent that reads WhatsApp orders, matches items to ERP SKUs and creates orders above a 90% match. Anything less certain goes to a person. |
+| **1000+ shipments/day** | A bulk barcode scanner for a medicine distributor, linking each pack to its box and pallet. |
+| **85% grounded answers** | A RAG system over DRHP filings (PDF + OCR, Hugging Face embeddings, ChromaDB, GPT). Guardrails cut unsupported answers from ~18% to ~6% on a 40-question test. |
+| **~88% less manual work** | Python and dashboards replacing repetitive spreadsheet work, plus leadership dashboards for gold, orders and deliveries. |
 
 ## Demo projects
 
-My client work is private, so I rebuilt the main ideas from scratch with made-up data. Each one runs with a single command.
-
-| Project | What it does | Link |
-|---|---|---|
-| **GS1 Barcode Demo** | Reads and checks barcodes, groups items into boxes and pallets, and finds mismatches with the main records | [gs1-serialization-demo](https://github.com/VinayakPunj/GS1-serialization-with-bulk-scanning) |
-| **Order Taking Agent** | Turns WhatsApp-style messages into orders. Creates the order if it is at least 90% sure, otherwise sends it to a person | [langgraph-order-agent](https://github.com/VinayakPunj/Whatsapp-and-Email-Order-Agent) |
-| **Jewellery Shopping Assistant** | Finds jewellery from one sentence about the occasion, budget and style | [jewellery-shopping-assistant](https://github.com/VinayakPunj/Jewellery-Shopping-Assistant-AI-Chatbot) |
-| **Stock-Price-Prediction-using-LSTM-Model** | Use of Long Short Term Memory Model in Stock Price Prediction | [Stock-Price-Prediction-using-LSTM-Model](https://github.com/VinayakPunj/Stock-Price-Prediction-using-LSTM-Model) |
-## ⚡ All projects
-
-### Finance and risk
-
-- **Loan default model.** Predicts how likely a borrower is to not repay, using Logistic Regression.
-- **Market risk engine (VaR).** Measures how much a portfolio could lose, tests the results against real profit and loss, and runs stress tests.
-- **Credit checks for small businesses.** Reviewed the finances and cash flow of MSMEs before invoice financing. Updated credit ratings for 400+ clients and wrote credit notes for 50+ clients.
-- **Hedging study.** Looked at gold loans, futures and currency risk, and what it costs to protect against them.
-
-### AI and automation
-
-- **Bulk barcode scanning platform**. Checks and groups barcodes for 500+ shipments a day, and connects to the client's tracking system and ERP.
-- **Order taking agent**. Reads WhatsApp orders, matches products to the catalogue, and handles short forms and spelling mistakes. Removed manual entry for 400+ orders a day.
-- **Jewellery shopping assistant** (Online Store/Ecommerce Website). Customers say what they want instead of clicking through filters.
-- **Q&A over long financial documents.** Answers questions from 500+ page IPO documents (DRHPs), with checks so answers come from the document.
-- **Food image classifier.** Sorts 48,000+ food photos by cuisine and taste, and runs as a web app.
-
-### Business analysis
-
-- **ERP requirements.** Studied how work is done today and wrote clear requirement documents (BRD and FRD).
-- **Leadership dashboards.** Gold stock, late orders and delivery performance in one place.
-- **Excel to Python.** Replaced manual Excel work with Python and cut the effort by about 88%.
-- **Sales analysis.** Studied 7 years of sales to find customer and product groups.
+| Project | What it does |
+|---|---|
+| [GS1 Barcode Demo](https://github.com/VinayakPunj/GS1-serialization-with-bulk-scanning) | Reads and checks barcodes, groups items into boxes and pallets, and finds mismatches with the main records |
+| [Order Taking Agent](https://github.com/VinayakPunj/Whatsapp-and-Email-Order-Agent) | Turns WhatsApp-style messages into orders; creates the order at 90%+ confidence, otherwise routes to a person |
+| [Jewellery Shopping Assistant](https://github.com/VinayakPunj/Jewellery-Shopping-Assistant-AI-Chatbot) | Finds jewellery from one sentence about occasion, budget and style |
+| [Stock Price Prediction (LSTM)](https://github.com/VinayakPunj/Stock-Price-Prediction-using-LSTM-Model) | Predicts stock prices with a Long Short-Term Memory model |
 
 ## Experience
 
-- **Associate AI Consultant**, Neurosync AI Technologies (Nov 2025 to Aug 2026). Built the barcode platform and the order agent.
-- **Finance and Business Analyst**, Gold Star Elite Jewels (May to Nov 2025). Hedging, dashboards, automation and ERP requirements.
-- **AI Software Intern**, Neurosync AI Technologies (Nov 2024 to Feb 2025). Built the document Q&A system.
-- **Management Intern**, Receivables Exchange of India (RXIL) (May to Sep 2024). Credit checks for small businesses.
-- **AIML Intern**, Pheme Software (May to Jul 2023). Built the food image classifier.
+| Role | Company | When |
+|---|---|---|
+| Associate AI Consultant | Neurosync AI Technologies | Nov 2025 – Present |
+| Business & Finance Analyst | Gold Star Elite Jewels | May 2025 – Nov 2025 |
+| AI Software Intern | Neurosync AI Technologies | Nov 2024 – Feb 2025 |
+| Management Intern | Receivables Exchange of India (RXIL) | May 2024 – Sep 2024 |
+| AI/ML Intern | Pheme Software | May 2023 – Jul 2023 |
 
 ## Skills
 
-- **Finance:** credit risk, market risk, VaR, hedging, DCF, financial modelling
-- **AI:** LLMs, RAG, LangChain, LangGraph, deep learning
-- **Code:** Python, SQL, Pandas, NumPy, scikit-learn, PyTorch, TensorFlow
-- **Tools:** FastAPI, Docker, Git, Azure, AWS, Power BI, Excel
+- **AI / ML:** LLMs, RAG, LangChain, LangGraph, Hugging Face, ChromaDB, embeddings, semantic search, prompt engineering, agentic workflows, OpenAI API, guardrails and validation, human-in-the-loop design, CNNs, Random Forest, Gradient Boosting
+- **Programming:** Python, SQL, PostgreSQL, MongoDB, scikit-learn, TensorFlow, PyTorch, Flask, FastAPI, Spark, Pandas, NumPy, Matplotlib
+- **Cloud / DevOps:** Azure, AWS, Docker
+- **Data, reporting & finance:** Power BI, advanced Excel, SPSS, SAS E-Miner, DCF, credit analysis, hedging, VaR
 
-## 🌱 Education and awards
+## Education
 
-- MBA (Finance) and B.Tech (Honors) in Computer Engineering, NMIMS Mumbai (2025)
+- **MBA, Technology Management** · MPSTME, NMIMS Mumbai · 2025
+- **B.Tech (Honors), Computer Engineering** · MPSTME, NMIMS Mumbai · 2020
+
+## Certifications and achievements
+
+- IBM AI/ML Graduate Certification
 - Bloomberg Market Concepts
-- IBM AI/ML Certification
 - Finalist, EY Young Leaders Case Competition (2024)
-- IBM project awards: 1st place (2021), 2nd place (2022)
+- IBM Technical Project Presentation: 2nd place (2022)
+- IBM Technical Poster Presentation: 1st place (2021)
 
+## About this repo
 
+This repo is both my GitHub profile README and the source of my [portfolio website](https://vinayakpunj.github.io/VinayakPunj/). The site is plain HTML, CSS and JavaScript with no build step.
 
-##
-### 🔥 What Drives Me
-I’m driven by the challenge of turning complex, high stakes problems into reliable AI systems.
-
-I enjoy working in domains like finance and enterprise operations where accuracy,
-accountability, and trust matter as much as innovation. Building AI that teams can
-actually rely on, is what keeps me excited about the work.
-
-I’m especially motivated by problems that sit at the intersection of
-technology, decision-making, and real business impact. 
-##
-### 📫 Contact
-- 🔗 [LinkedIn](https://www.linkedin.com/in/vinayak-p-17839a1b6/)
-- 📫 vinayak.punj@gmail.com
-<!--
-**VinayakPunj/VinayakPunj** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-
-Here are some ideas to get you started:
-
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+```
+index.html   page content
+style.css    styling
+script.js    scroll effects and animations
+images/      portrait and assets
+```
